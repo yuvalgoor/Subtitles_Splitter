@@ -1,0 +1,10 @@
+# Ignore build output
+build/
+dist/
+
+# Ignore IDE files
+.idea/
+.vscode/
+__pycache__/
+
+venv/

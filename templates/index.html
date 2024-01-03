@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SRT Processor</title>
+</head>
+<body>
+    <h1>SRT File Processor</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="max_length">Max Line Length:</label>
+        <input type="number" id="max_length" name="max_length" value="25" required>
+        <br><br>
+        <label for="srt_file">SRT File:</label>
+        <input type="file" id="srt_file" name="srt_file" accept=".srt" required>
+        <br><br>
+        <input type="submit" value="Process File">
+    </form>
+</body>
+</html>
